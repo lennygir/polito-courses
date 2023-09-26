@@ -315,7 +315,7 @@ for(let img of imgs) {
 
         element = document.createElement("label");
         element.for = img.code;
-        element.textContent = img.name;
+        element.textContent = img.name + ' (' + img.code.substr(1) + ')';
         wrapper.appendChild(element);
 
         form.appendChild(wrapper);
