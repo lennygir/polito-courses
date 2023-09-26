@@ -1,283 +1,299 @@
 let imgs = [
   {
-    "name": "Big data processing and analytics",
-    "code": "i01DSHOV"
+      "name": "Computer networks",
+      "code": "i08KSILM"
   },
   {
-    "name": "Computer architectures",
-    "code": "i02LSEOV"
+      "name": "Object oriented programming",
+      "code": "i04JEYLM"
   },
   {
-    "name": "Data Science and Database Technology",
-    "code": "i01SQJOV"
+      "name": "Operating systems",
+      "code": "i04JEZLM"
   },
   {
-    "name": "Computer network technologies and services",
-    "code": "i01OTWOV"
+      "name": "Signal analysis and processing",
+      "code": "i02OGGLM"
   },
   {
-    "name": "Advanced Machine Learning",
-    "code": "i01URWOV"
+      "name": "Big data processing and analytics",
+      "code": "i01DSHOV"
   },
   {
-    "name": "Information systems security",
-    "code": "i01TYMOV"
+      "name": "Computer architectures",
+      "code": "i02LSEOV"
   },
   {
-    "name": "Cloud Computing Technologies",
-    "code": "i01HFPOV"
+      "name": "Data Science and Database Technology",
+      "code": "i01SQJOV"
   },
   {
-    "name": "Computational intelligence",
-    "code": "i01URROV"
+      "name": "Computer network technologies and services",
+      "code": "i01OTWOV"
   },
   {
-    "name": "Distributed systems programming",
-    "code": "i01TXZOV"
+      "name": "Advanced Machine Learning",
+      "code": "i01URWOV"
   },
   {
-    "name": "Human Computer Interaction",
-    "code": "i02JSKOV"
+      "name": "Information systems security",
+      "code": "i01TYMOV"
   },
   {
-    "name": "Optimization methods and algorithms",
-    "code": "i01OUVOV"
+      "name": "Cloud Computing Technologies",
+      "code": "i01HFPOV"
   },
   {
-    "name": "Robot Learning",
-    "code": "i01HFNOV"
+      "name": "Computational intelligence",
+      "code": "i01URROV"
   },
   {
-    "name": "Software Engineering II",
-    "code": "i01SQNOV"
+      "name": "Distributed systems programming",
+      "code": "i01TXZOV"
   },
   {
-    "name": "Convex optimization and engineering applications",
-    "code": "i01OUWOV"
+      "name": "Human Computer Interaction",
+      "code": "i02JSKOV"
   },
   {
-    "name": "Digital control technologies and architectures",
-    "code": "i01PDCOV"
+      "name": "Optimization methods and algorithms",
+      "code": "i01OUVOV"
   },
   {
-    "name": "Edge Computing Systems for AI and ML",
-    "code": "i01DTDOV"
+      "name": "Robot Learning",
+      "code": "i01HFNOV"
   },
   {
-    "name": "GPU programming",
-    "code": "i01URVOV"
+      "name": "Software Engineering II",
+      "code": "i01SQNOV"
   },
   {
-    "name": "Network Dynamics and Learning",
-    "code": "i02TXLOV"
+      "name": "Convex optimization and engineering applications",
+      "code": "i01OUWOV"
   },
   {
-    "name": "Automotive control systems",
-    "code": "i03MIQOV"
+      "name": "Digital control technologies and architectures",
+      "code": "i01PDCOV"
   },
   {
-    "name": "Modern design of control systems",
-    "code": "i01PDXOV"
+      "name": "Edge Computing Systems for AI and ML",
+      "code": "i01DTDOV"
   },
   {
-    "name": "Software architecture for automation",
-    "code": "i01PECOV"
+      "name": "GPU programming",
+      "code": "i01URVOV"
   },
   {
-    "name": "Big data: architectures and data analytics",
-    "code": "i01QYDOV"
+      "name": "Network Dynamics and Learning",
+      "code": "i02TXLOV"
   },
   {
-    "name": "Internet Architecture and Technologies",
-    "code": "i01HFQOV"
+      "name": "Automotive control systems",
+      "code": "i03MIQOV"
   },
   {
-    "name": "Software Networking",
-    "code": "i01SQPOV"
+      "name": "Modern design of control systems",
+      "code": "i01PDXOV"
   },
   {
-    "name": "Energy management for IoT",
-    "code": "i01UDGOV"
+      "name": "Software architecture for automation",
+      "code": "i01PECOV"
   },
   {
-    "name": "Internet Performance and Troubleshooting Lab",
-    "code": "i01HFTOV"
+      "name": "Big data: architectures and data analytics",
+      "code": "i01QYDOV"
   },
   {
-    "name": "Specification and simulation of digital systems",
-    "code": "i02LQDOV"
+      "name": "Internet Architecture and Technologies",
+      "code": "i01HFQOV"
   },
   {
-    "name": "System-on-chip architecture",
-    "code": "i01QYHOV"
+      "name": "Software Networking",
+      "code": "i01SQPOV"
   },
   {
-    "name": "Electronics for embedded systems",
-    "code": "i01NWMOV"
+      "name": "Energy management for IoT",
+      "code": "i01UDGOV"
   },
   {
-    "name": "Operating systems for embedded systems",
-    "code": "i02NPSOV"
+      "name": "Internet Performance and Troubleshooting Lab",
+      "code": "i01HFTOV"
   },
   {
-    "name": "Testing and fault tolerance",
-    "code": "i01RKZOV"
+      "name": "Specification and simulation of digital systems",
+      "code": "i02LQDOV"
   },
   {
-    "name": "Electronic systems engineering",
-    "code": "i01NOKOV"
+      "name": "System-on-chip architecture",
+      "code": "i01QYHOV"
   },
   {
-    "name": "Modeling and optimization of embedded systems",
-    "code": "i01NWNOV"
+      "name": "Electronics for embedded systems",
+      "code": "i01NWMOV"
   },
   {
-    "name": "Programming for IoT applications",
-    "code": "i03QWROV"
+      "name": "Operating systems for embedded systems",
+      "code": "i02NPSOV"
   },
   {
-    "name": "Information systems",
-    "code": "i01PDWOV"
+      "name": "Testing and fault tolerance",
+      "code": "i01RKZOV"
   },
   {
-    "name": "Computer Design",
-    "code": "i01DLCOV"
+      "name": "Electronic systems engineering",
+      "code": "i01NOKOV"
   },
   {
-    "name": "Design of Integrated Circuits",
-    "code": "i01DLAOV"
+      "name": "Modeling and optimization of embedded systems",
+      "code": "i01NWNOV"
   },
   {
-    "name": "Industrial and Embedded Computer Systems Design",
-    "code": "i01DKCOV"
+      "name": "Programming for IoT applications",
+      "code": "i03QWROV"
   },
   {
-    "name": "Real-time Systems",
-    "code": "i01DLBOV"
+      "name": "Information systems",
+      "code": "i01PDWOV"
   },
   {
-    "name": "Architecture of Digital Systems I",
-    "code": "i01DKOOV"
+      "name": "Computer Design",
+      "code": "i01DLCOV"
   },
   {
-    "name": "Architecture of Digital Systems II",
-    "code": "i01DKPOV"
+      "name": "Design of Integrated Circuits",
+      "code": "i01DLAOV"
   },
   {
-    "name": "Microelectronic Circuit and System Design I",
-    "code": "i01DKXOV"
+      "name": "Industrial and Embedded Computer Systems Design",
+      "code": "i01DKCOV"
   },
   {
-    "name": "Operating systems",
-    "code": "i02JEZOV"
+      "name": "Real-time Systems",
+      "code": "i01DLBOV"
   },
   {
-    "name": "Synthesis and Optimization of Microelectronic Systems I",
-    "code": "i01DKVOV"
+      "name": "Architecture of Digital Systems I",
+      "code": "i01DKOOV"
   },
   {
-    "name": "Verification of Digital Systems",
-    "code": "i01DKUOV"
+      "name": "Architecture of Digital Systems II",
+      "code": "i01DKPOV"
   },
   {
-    "name": "Digital IC and Systems Design",
-    "code": "i01DLGOV"
+      "name": "Microelectronic Circuit and System Design I",
+      "code": "i01DKXOV"
   },
   {
-    "name": "Digital system design",
-    "code": "i02KTJOV"
+      "name": "Operating systems",
+      "code": "i02JEZOV"
   },
   {
-    "name": "Microfabrication",
-    "code": "i01DLHOV"
+      "name": "Synthesis and Optimization of Microelectronic Systems I",
+      "code": "i01DKVOV"
   },
   {
-    "name": "Secure Hardware and Embedded Devices",
-    "code": "i01DKKOV"
+      "name": "Verification of Digital Systems",
+      "code": "i01DKUOV"
   },
   {
-    "name": "Electronic Systems Design - Specialization Course",
-    "code": "i01DKEOV"
+      "name": "Digital IC and Systems Design",
+      "code": "i01DLGOV"
   },
   {
-    "name": "Electronic Systems Design - Specialization Project",
-    "code": "i01DKFOV"
+      "name": "Digital system design",
+      "code": "i02KTJOV"
   },
   {
-    "name": "Low-Level Programming",
-    "code": "i01DKDOV"
+      "name": "Microfabrication",
+      "code": "i01DLHOV"
   },
   {
-    "name": "Model-based Design of Embedded Systems",
-    "code": "i01DJUOV"
+      "name": "Secure Hardware and Embedded Devices",
+      "code": "i01DKKOV"
   },
   {
-    "name": "Power-Aware Embedded Systems",
-    "code": "i01DJXOV"
+      "name": "Electronic Systems Design - Specialization Course",
+      "code": "i01DKEOV"
   },
   {
-    "name": "Real-Time Systems Lab",
-    "code": "i01DJZOV"
+      "name": "Electronic Systems Design - Specialization Project",
+      "code": "i01DKFOV"
   },
   {
-    "name": "Safety and Reliability of Embedded Systems",
-    "code": "i01DJVOV"
+      "name": "Low-Level Programming",
+      "code": "i01DKDOV"
   },
   {
-    "name": "Verification of Digital Systems (with Lab)",
-    "code": "i01DJWOV"
+      "name": "Model-based Design of Embedded Systems",
+      "code": "i01DJUOV"
   },
   {
-    "name": "Wireless and Multimedia Systems",
-    "code": "i01DJYOV"
+      "name": "Power-Aware Embedded Systems",
+      "code": "i01DJXOV"
   },
   {
-    "name": "Control System Design",
-    "code": "i01DKJOV"
+      "name": "Real-Time Systems Lab",
+      "code": "i01DJZOV"
   },
   {
-    "name": "Research Methods and Project Preparation",
-    "code": "i01DKLOV"
+      "name": "Safety and Reliability of Embedded Systems",
+      "code": "i01DJVOV"
   },
   {
-    "name": "Software Modelling Tools and Techniques for Critical Systems",
-    "code": "i01DKIOV"
+      "name": "Verification of Digital Systems (with Lab)",
+      "code": "i01DJWOV"
   },
   {
-    "name": "Smart objects I",
-    "code": "i01RDUOV"
+      "name": "Wireless and Multimedia Systems",
+      "code": "i01DJYOV"
   },
   {
-    "name": "Data science I",
-    "code": "i01RDQOV"
+      "name": "Control System Design",
+      "code": "i01DKJOV"
   },
   {
-    "name": "Multimedia I",
-    "code": "i05PABOV"
+      "name": "Research Methods and Project Preparation",
+      "code": "i01DKLOV"
   },
   {
-    "name": "Data science I",
-    "code": "i02RDQOV"
+      "name": "Software Modelling Tools and Techniques for Critical Systems",
+      "code": "i01DKIOV"
   },
   {
-    "name": "Security I",
-    "code": "i01RDSOV"
+      "name": "Smart objects I",
+      "code": "i01RDUOV"
   },
   {
-    "name": "Smart objects I",
-    "code": "i02RDUOV"
+      "name": "Data science I",
+      "code": "i01RDQOV"
   },
   {
-    "name": "Data science I",
-    "code": "i03RDQOV"
+      "name": "Multimedia I",
+      "code": "i05PABOV"
   },
   {
-    "name": "Smart objects I",
-    "code": "i03RDUOV"
+      "name": "Data science I",
+      "code": "i02RDQOV"
   },
   {
-    "name": "TOP-UIC - Informatica",
-    "code": "i01PAJOV"
+      "name": "Security I",
+      "code": "i01RDSOV"
+  },
+  {
+      "name": "Smart objects I",
+      "code": "i02RDUOV"
+  },
+  {
+      "name": "Data science I",
+      "code": "i03RDQOV"
+  },
+  {
+      "name": "Smart objects I",
+      "code": "i03RDUOV"
+  },
+  {
+      "name": "TOP-UIC - Informatica",
+      "code": "i01PAJOV"
   }
 ]
 
