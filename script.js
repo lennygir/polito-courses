@@ -285,17 +285,21 @@ function checkIfImageExists(url, callback) {
     const img = new Image();
     img.src = url;
 
-    console.log(img)
-    
     if (img.complete) {
-      callback(true);
+        callback(true);
     } else {
-        callback(false);
+        img.onload = () => {
+            callback(true);
+        };
+
+        img.onerror = () => {
+            callback(false);
+        };
     }
 }
 
-let form = document.querySelector("#list form")
-let timeTable = document.querySelector("#time-table")
+let form = document.querySelector("#list form");
+let timeTable = document.querySelector("#time-table");
 
 for(let img of imgs) {
     checkIfImageExists(`img/${img.code}.png`, (exists) => {
